@@ -1,0 +1,165 @@
+/* Reset basic styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    list-style: none
+    
+}
+/* cooment */
+
+/* Primary Navigation */
+.nav-container {
+    padding: 32px ;
+    max-height: 90px;
+    background: #1f1f1f;
+}
+
+.logo {
+    width:8%;
+    margin-left: 20px;
+    margin-top: -2%;
+}
+
+
+
+/* Primary nav */
+.primary-nav {
+    list-style: none;
+    margin-left: 77%;
+    margin-top: -40px;
+   display: flex;
+   
+
+}
+
+.primary-nav a {
+    color: lightblue;
+    text-decoration: none;
+    font-size: 14px;
+   
+   
+}
+
+nav ul {
+    margin-bottom: 15px;
+    list-style-type: none;  /* Rimuove i punti della lista */
+ 
+   
+    
+}
+
+
+nav ul li {
+    margin-right: 20px;
+   text-align: left;
+    
+}
+
+.primary-nav a:hover {
+    color: lightgreen;
+
+}
+
+/* Main Content */
+.content {
+    display: block;
+    width: 100%;
+    height: calc(81vh - 75px); /* Adjust height to fill the screen */
+}
+
+/* Main box (70% width) */
+.main-content {
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    height: 49% ;
+}
+
+#h1title{
+    font-size: 24px;
+    color: black;
+}
+/* Side navigation (30% width) */
+.side-nav {
+    background-color: #333;
+    height: 100%;
+    width: 35%;
+    display: inline-block;
+    margin-left: 65%;
+    margin-top: -50%;
+    padding: 0%;
+
+}
+
+.side-nav h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 42px;
+    margin-right: -5%;
+    
+}
+
+.secondary-nav {
+    list-style: none;
+    text-align: center;
+   
+}
+
+.secondary-nav li {
+    margin-bottom: 10px;
+}
+
+.secondary-nav a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.secondary-nav a:hover {
+    color: lightgreen;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-nav {
+    list-style: none;
+    justify-content: center;
+    
+    
+}
+
+.footer-nav li {
+    margin: 0 10px;
+    display: inline; /* Posiziona gli elementi in-linea */
+    margin-right: 20px; /* Spaziatura tra gli elementi */
+}
+
+.footer-nav a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: lightgreen;
+}
+
+/* Footer separator line */
+footer hr {
+    border: 1px solid gray;
+    width: 100%; /* Extend line to full width */
+    margin: 10px auto; /* Center the line */
+}
+
+/* Footer text */
+footer p {
+    font-size: 12px;
+    margin-top: 10px;
+}
