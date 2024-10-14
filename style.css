@@ -9,9 +9,10 @@
 
 /* Primary Navigation */
 .nav-container {
-    padding: 32px;
-    max-height: 90px;
+    padding: 32px 32px;
+    max-height: 80px;
     background: #1f1f1f;
+    
 }
 
 .logo {
@@ -25,13 +26,18 @@
     list-style: none;
     margin-left: 77%;
     margin-top: -40px;
-    display: flex;
 }
 
 .primary-nav a {
     color: lightblue;
     text-decoration: none;
     font-size: 18px;
+    float: right;
+    width: 50%;
+    list-style-type: none; /* Rimuove i pallini dalla lista */
+    padding: 0;
+    margin: 0;
+    text-align: right; /* Allinea la lista a destra */
 }
 
 nav ul {
@@ -41,7 +47,7 @@ nav ul {
 
 nav ul li {
     margin-right: 20px;
-    text-align: left;
+    display: inline-block;
 }
 
 .primary-nav a:hover {
